@@ -7,7 +7,7 @@ const NavBar = () => {
         className='text-nevBlue text-3xl font-semibold font-[Fredoka] my-auto'
         href='/'
       >
-        NB
+        DbNB
       </a>
       <div className='flex gap-2 my-auto font-bold text-lg'>
         <a href='/work'>Work</a>

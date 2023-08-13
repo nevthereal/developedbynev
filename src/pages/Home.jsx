@@ -14,6 +14,7 @@ const Home = () => {
         "hooking",
         "innovative",
         "creative",
+        "professional",
       ],
       typeSpeed: 50,
       loop: true,
@@ -28,15 +29,26 @@ const Home = () => {
   return (
     <div className='m-6'>
       <h1 className='text-5xl font-black'>
-        The <span className='font-[Montserrat]'>Dev</span> you have been looking
-        for.
+        The <span className='font-[Montserrat] italic'>Dev</span> you have been
+        looking for.
       </h1>
       <p className='mt-4 font-bold text-lg'>
-        I will create you <span className='text-nevBlue' ref={adjectives} />{" "}
-        Websites
+        Looking for <span className='text-nevBlue' ref={adjectives} /> Websites?
       </p>
-      <motion.button className='bg-nevBlue shadow-lg shadow-nevBlue/75 px-4 py-2 text-xl font-bold rounded-full'>
-        See my work!
+      <motion.button
+        initial={{ scale: 0.8 }}
+        animate={{ scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20,
+          duration: 500,
+        }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className='bg-nevBlue shadow-lg shadow-nevBlue/75 px-4 py-2 text-xl font-bold rounded-2xl mt-4'
+      >
+        <a href='/work'>See my work</a>
       </motion.button>
     </div>
   );

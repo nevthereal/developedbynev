@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import Work from "./pages/Work";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path='/work' />
+        <Route path='/work' element={<Work />} />
         <Route path='/pricing' />
         <Route path='/contact' />
       </Routes>
