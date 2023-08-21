@@ -10,8 +10,8 @@ const Home = () => {
       strings: [
         "beautiful",
         "responsive",
-        "stunning",
-        "hooking",
+        "minimalistic",
+        "modern",
         "innovative",
         "creative",
         "professional",
@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='m-6'>
+    <div className='p-6 h-[71dvh] bg-gradient-to-t from-purple-600 via-nevBlue to-black'>
       <h1 className='text-5xl font-black'>
         The <span className='font-[Montserrat] italic'>Dev</span> you have been
         looking for.
@@ -46,7 +46,7 @@ const Home = () => {
         }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className='bg-nevBlue shadow-lg shadow-nevBlue/75 px-4 py-2 text-xl font-bold rounded-2xl mt-4'
+        className='bg-nevBlue border-2 shadow-lg px-4 py-2 text-xl font-bold rounded-2xl mt-4'
       >
         <a href='/work'>See my work</a>
       </motion.button>

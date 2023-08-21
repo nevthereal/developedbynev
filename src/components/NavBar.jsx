@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className='p-4 bg-white rounded-b-2xl text-black flex justify-between shadow-xl'>
+    <nav className='p-4 bg-white border-2 border-b-nevBlue border-x-nevBlue rounded-b-2xl text-black flex justify-between shadow-xl'>
       <a
         className='text-nevBlue text-3xl font-semibold font-[Fredoka] my-auto'
         href='/'
