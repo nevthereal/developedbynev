@@ -70,7 +70,9 @@ const Work = () => {
             className='bg-white text-black p-4 border-2 rounded-2xl border-nevBlue my-4'
             key={project.name}
           >
-            <h1 className='font-bold text-2xl'>{project.name}</h1>
+            <h1 className='font-bold text-2xl font-[Montserrat]'>
+              {project.name}
+            </h1>
             <p className='text-gray-800 mt-2'>{project.description}</p>
             <div className='mt-2'>
               <h3 className='text-sm font-semibold'>

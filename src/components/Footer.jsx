@@ -8,8 +8,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=' h-[16dvh] text-center font-extrabold py-4 text-2xl'>
-      <p>© Neville Brem</p>
+    <footer className=' h-[16dvh] text-center font-extrabold font-[Montserrat] py-4 text-2xl'>
+      <p>©Neville Brem</p>
       <div className='flex justify-center gap-3 text-5xl mt-2'>
         <a href='https://instagram.com/nevillebrem' target='_blank'>
           <FontAwesomeIcon icon={faInstagramSquare} />

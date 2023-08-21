@@ -29,11 +29,12 @@ const Home = () => {
   return (
     <div className='p-6 h-[71dvh] bg-gradient-to-t from-purple-600 via-nevBlue to-black'>
       <h1 className='text-5xl font-black'>
-        The <span className='font-[Montserrat] italic'>Dev</span> you have been
-        looking for.
+        The <span className='font-[Montserrat] italic text-nevBlue'>Dev</span>{" "}
+        you have been looking for.
       </h1>
       <p className='mt-4 font-bold text-lg'>
-        Looking for <span className='text-nevBlue' ref={adjectives} /> Websites?
+        Looking for <span className='font-[Montserrat]' ref={adjectives} />{" "}
+        Websites?
       </p>
       <motion.button
         initial={{ scale: 0.8 }}
