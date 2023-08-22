@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='p-6 h-[71dvh] bg-gradient-to-t from-purple-600 via-nevBlue to-black'>
+    <div className='p-6 h-[71dvh] bg-gradient-to-t from-black via-nevBlue to-black'>
       <h1 className='text-5xl font-black'>
         The <span className='font-[Montserrat] italic text-nevBlue'>Dev</span>{" "}
         you have been looking for.
